@@ -8,7 +8,7 @@ The component has edge controls that let the component array expand or contract 
 
 Demo
 ==========
-Build the application using Maven.
-Deploy the application to a Java EE application server.
-Use a browser to visit http://localhost:port/DansMatrix.
-Add and remove rows and columns.
+   - Build the application using Maven.
+   - Deploy the application to a Java EE application server.
+   - Use a browser to visit http://localhost:port/DansMatrix.
+   - Add and remove rows and columns.
