@@ -1,0 +1,39 @@
+/* Import the reindeer theme. */
+/* This only allows us to use the mixins defined in it and does not add any styles by itself. */
+@import "../reindeer/reindeer.scss";
+
+/* This contains all of your theme. */
+/* If somebody wants to extend the theme she will include this mixin. */
+@mixin mytheme {
+  /* Include all the styles from the reindeer theme */
+  @include reindeer;
+
+  /* Insert your theme rules here */
+  .contentstyle {
+	text-align: center;
+  }  
+  .oddrow {
+      background-color: #AAAAAA;
+  }  
+  .evenrow {
+      background-color: #CCCCCC;
+  }  
+  .oddcol {
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 2px 2px 2px 2px;
+      border-color: #000000;
+  }  
+  .evencol {
+      border-style: dotted;
+      border-width: 1px;
+      border-radius: 2px 2px 2px 2px;
+      border-color: #444444;
+  }  
+  .expandablegridstyle {
+      background-color: #EEEEEE;
+  }  
+  .expandcontractstyle {
+      background-color: #EEEEEE;
+  }  
+}
